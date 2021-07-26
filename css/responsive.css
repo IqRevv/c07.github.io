@@ -1,0 +1,23 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .team member {
+        height: 1490;
+    }
+
+    .heading h1 {
+        font-size: 32px;
+    }
+
+    .member {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .member {
+        width: 25%;
+    }
+}
